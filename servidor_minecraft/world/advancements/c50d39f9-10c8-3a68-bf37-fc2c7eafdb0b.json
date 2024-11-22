@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2024-11-22 20:38:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2024-11-22 03:52:19 +0000"
@@ -203,6 +209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-11-22 20:43:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_at_least_9_coal": "2024-11-22 04:51:28 +0000"
@@ -293,6 +305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2024-11-22 20:38:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2024-11-22 03:50:52 +0000"
@@ -341,6 +359,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2024-11-22 04:03:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-11-22 20:43:53 +0000"
     },
     "done": true
   },
@@ -395,6 +419,12 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2024-11-22 04:34:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2024-11-22 20:38:45 +0000"
     },
     "done": true
   },
@@ -566,6 +596,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-11-22 20:27:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2024-11-22 03:56:35 +0000",
@@ -575,6 +611,7 @@
       "savanna": "2024-11-22 04:15:56 +0000",
       "plains": "2024-11-22 03:48:23 +0000",
       "savanna_rock": "2024-11-22 04:23:37 +0000",
+      "extreme_hills": "2024-11-22 20:42:32 +0000",
       "roofed_forest": "2024-11-22 03:50:01 +0000",
       "river": "2024-11-22 03:59:34 +0000",
       "desert": "2024-11-22 04:15:12 +0000"
@@ -632,6 +669,12 @@
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2024-11-22 04:03:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2024-11-22 20:38:45 +0000"
     },
     "done": true
   },
@@ -704,6 +747,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "entered_water": "2024-11-22 03:51:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-11-22 20:43:53 +0000"
     },
     "done": true
   },
@@ -850,6 +899,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2024-11-22 04:03:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2024-11-22 20:38:45 +0000"
     },
     "done": true
   },
