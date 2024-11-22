@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2024-11-22 04:51:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sign": {
     "criteria": {
       "has_planks": "2024-11-22 03:50:52 +0000"
@@ -302,6 +308,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2024-11-22 03:59:29 +0000",
+      "cooked_beef": "2024-11-22 04:44:36 +0000",
       "mutton": "2024-11-22 03:53:45 +0000",
       "rotten_flesh": "2024-11-22 04:02:30 +0000"
     },
@@ -355,15 +362,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_block": {
-    "criteria": {
-      "has_the_recipe": "2024-11-22 04:29:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2024-11-22 04:28:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2024-11-22 04:29:09 +0000"
     },
     "done": true
   },
@@ -427,6 +434,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_the_recipe": "2024-11-22 04:51:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2024-11-22 04:25:11 +0000"
@@ -466,6 +479,12 @@
   "minecraft:recipes/building_blocks/string_to_wool": {
     "criteria": {
       "has_string": "2024-11-22 04:09:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-11-22 04:49:43 +0000"
     },
     "done": true
   },
@@ -637,6 +656,12 @@
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2024-11-22 04:28:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-11-22 04:45:04 +0000"
     },
     "done": true
   },

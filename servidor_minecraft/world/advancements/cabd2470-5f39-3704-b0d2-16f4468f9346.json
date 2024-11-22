@@ -161,6 +161,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2024-11-22 04:49:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_at_least_9_coal": "2024-11-22 03:28:56 +0000"
@@ -251,6 +257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2024-11-22 04:54:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2024-11-22 03:25:24 +0000"
@@ -259,6 +271,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "apple": "2024-11-22 04:53:16 +0000",
       "bread": "2024-11-22 04:28:37 +0000",
       "cooked_chicken": "2024-11-22 03:47:46 +0000"
     },
@@ -348,6 +361,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2024-11-22 04:49:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2024-11-22 03:25:24 +0000"
@@ -402,15 +421,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-11-22 03:39:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_sand": "2024-11-22 04:35:27 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/bow": {
+  "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
-      "has_string": "2024-11-22 03:39:50 +0000"
+      "has_sandstone": "2024-11-22 04:54:20 +0000"
     },
     "done": true
   },
@@ -429,6 +454,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2024-11-22 04:02:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-11-22 04:54:20 +0000"
     },
     "done": true
   },
@@ -625,6 +656,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2024-11-22 04:49:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "entered_water": "2024-11-22 03:40:29 +0000"
@@ -715,6 +752,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_at_least_9_redstone": "2024-11-22 03:27:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stonebrick": {
+    "criteria": {
+      "has_stone": "2024-11-22 04:49:18 +0000"
     },
     "done": true
   },
