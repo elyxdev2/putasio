@@ -32477,3 +32477,79 @@
 [22:36:13] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 235 times.
 
 [22:36:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:37:03] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 240 times.
+
+[22:37:03] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 240 times.
+
+[22:37:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Unknown command. Try /help for a list of commands
+[22:37:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: You must specify which player you wish to perform this action on.
+[22:37:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Usage: /setworldspawn [<x> <y> <z>]
+[22:37:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:37:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set the world spawn point to (-1299, 72, 1212)
+[22:37:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: spawnRadius = 10
+[22:37:53] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 245 times.
+
+[22:37:53] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 245 times.
+
+[22:37:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Game rule spawnRadius has been updated to 1
+[22:38:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:38:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set elyxdev's game mode to Creative Mode
+[22:38:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 has made the advancement [Geiger Counter]
+[22:38:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: You must specify which player you wish to perform this action on.
+[22:38:43] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 250 times.
+
+[22:38:43] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 250 times.
+
+[22:38:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set elyxdev's game mode to Survival Mode
+[22:39:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:39:33] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 255 times.
+
+[22:39:33] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 255 times.
+
+[22:39:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 fell from a high place
+[22:39:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:40:23] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 260 times.
+
+[22:40:23] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 260 times.
+
+[22:40:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:41:13] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 265 times.
+
+[22:41:13] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 265 times.
+
+[22:41:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:42:03] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 270 times.
+
+[22:42:03] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 270 times.
+
+[22:42:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:42:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:42:53] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 275 times.
+
+[22:42:53] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 275 times.
+
+[22:42:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: elyxdev fell from a high place
+[22:42:57] [Server thread/WARN] [net.minecraft.entity.EntityTrackerEntry]: Fetching addPacket for removed entity
+[22:43:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 fell from a high place
+[22:43:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:43:43] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 280 times.
+
+[22:43:43] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 280 times.
+
+[22:44:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:44:33] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 285 times.
+
+[22:44:33] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 285 times.
+
+[22:45:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:45:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <elyxdev> pump
+[22:45:23] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 290 times.
+
+[22:45:23] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 290 times.
+
+[22:45:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[22:46:13] [Server thread/DEBUG] [FML]: The world c31e931 (world) may have leaked: seen 295 times.
+
+[22:46:13] [Server thread/DEBUG] [FML]: The world 5878b485 (world) may have leaked: seen 295 times.
+
+[22:46:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world

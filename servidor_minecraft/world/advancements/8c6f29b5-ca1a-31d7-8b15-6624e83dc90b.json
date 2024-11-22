@@ -701,6 +701,12 @@
     },
     "done": true
   },
+  "hbm:progress_geiger": {
+    "criteria": {
+      "crafting_table": "2024-11-22 22:38:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-11-22 04:45:14 +0000"
