@@ -440,6 +440,12 @@
     },
     "done": true
   },
+  "hbm:progress_steel": {
+    "criteria": {
+      "crafting_table": "2024-11-22 05:37:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/fence_gate": {
     "criteria": {
       "has_planks": "2024-11-22 03:17:34 +0000"
