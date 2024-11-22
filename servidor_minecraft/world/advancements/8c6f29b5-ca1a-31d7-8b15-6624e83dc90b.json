@@ -466,6 +466,12 @@
     },
     "done": true
   },
+  "buildcraftbuilders:shaping_the_world": {
+    "criteria": {
+      "code_trigger": "2024-11-22 22:08:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2024-11-22 03:18:21 +0000"
@@ -817,6 +823,7 @@
   },
   "buildcraftcore:gears": {
     "criteria": {
+      "gear_iron": "2024-11-22 22:06:40 +0000",
       "gear_stone": "2024-11-22 21:15:51 +0000",
       "gear_wood": "2024-11-22 21:13:02 +0000"
     },
