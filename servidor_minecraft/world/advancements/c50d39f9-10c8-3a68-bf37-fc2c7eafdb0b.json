@@ -101,6 +101,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2024-11-22 20:47:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2024-11-22 03:50:52 +0000"
@@ -327,6 +333,7 @@
     "criteria": {
       "cooked_mutton": "2024-11-22 03:59:29 +0000",
       "cooked_beef": "2024-11-22 04:44:36 +0000",
+      "beef": "2024-11-22 20:50:22 +0000",
       "mutton": "2024-11-22 03:53:45 +0000",
       "rotten_flesh": "2024-11-22 04:02:30 +0000"
     },
@@ -557,6 +564,12 @@
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2024-11-22 04:28:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_double_plant": "2024-11-22 20:49:30 +0000"
     },
     "done": true
   },
@@ -792,6 +805,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2024-11-22 20:47:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2024-11-22 03:52:19 +0000"
@@ -808,9 +827,16 @@
     "criteria": {
       "skeleton": "2024-11-22 04:11:35 +0000",
       "zombie": "2024-11-22 03:59:58 +0000",
-      "spider": "2024-11-22 04:09:19 +0000"
+      "spider": "2024-11-22 04:09:19 +0000",
+      "creeper": "2024-11-22 20:49:42 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/lit_pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2024-11-22 20:47:22 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
