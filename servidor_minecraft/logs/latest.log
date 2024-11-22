@@ -985,3 +985,15 @@
 [05:52:38] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-187, 114] in dimension 0 (overworld) while populating chunk [-186, 115], causing cascading worldgen lag.
 [05:52:38] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
 [05:53:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Teleported elyxdev to -1135.5, 99.0, 797.5
+[05:54:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set elyxdev's game mode to Survival Mode
+[05:54:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[05:54:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[05:54:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[05:54:21] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: elyxdev lost connection: Server closed
+[05:54:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: elyxdev left the game
+[05:54:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[05:54:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[05:54:22] [Server thread/INFO] [FML]: Unloading dimension 0
+[05:54:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[05:54:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[05:54:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
