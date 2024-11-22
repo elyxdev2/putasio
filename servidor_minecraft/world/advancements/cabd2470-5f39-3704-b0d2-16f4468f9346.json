@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "buildcraftenergy:engine": {
+    "criteria": {
+      "strirling_engine": "2024-11-22 21:16:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2024-11-22 03:25:24 +0000"
@@ -434,6 +440,12 @@
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2024-11-22 03:19:09 +0000"
+    },
+    "done": true
+  },
+  "buildcraftbuilders:shaping_the_world": {
+    "criteria": {
+      "code_trigger": "2024-11-22 21:17:55 +0000"
     },
     "done": true
   },
