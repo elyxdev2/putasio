@@ -361,6 +361,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2024-11-22 19:43:42 +0000",
       "beef": "2024-11-22 05:04:19 +0000",
       "apple": "2024-11-22 04:53:16 +0000",
       "bread": "2024-11-22 04:28:37 +0000",
@@ -617,6 +618,12 @@
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-11-22 05:04:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_brick_block": "2024-11-22 19:39:38 +0000"
     },
     "done": true
   },
@@ -971,6 +978,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_at_least_9_redstone": "2024-11-22 03:27:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_brick_block": "2024-11-22 19:39:38 +0000"
     },
     "done": true
   },
