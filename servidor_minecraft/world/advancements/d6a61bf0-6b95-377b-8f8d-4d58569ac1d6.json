@@ -329,6 +329,12 @@
     },
     "done": true
   },
+  "hbm:achraddeath": {
+    "criteria": {
+      "impossible": "2024-11-22 05:26:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2024-11-22 03:18:37 +0000"
@@ -431,6 +437,12 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2024-11-22 03:31:59 +0000"
+    },
+    "done": true
+  },
+  "hbm:progress_steel": {
+    "criteria": {
+      "crafting_table": "2024-11-22 05:25:25 +0000"
     },
     "done": true
   },
@@ -596,6 +608,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_brick_block": "2024-11-22 05:02:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2024-11-22 03:57:03 +0000"
@@ -640,6 +658,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "beaches": "2024-11-22 05:03:18 +0000",
       "desert_hills": "2024-11-22 04:02:52 +0000",
       "forest_hills": "2024-11-22 03:38:05 +0000",
       "savanna": "2024-11-22 04:07:45 +0000",
@@ -672,6 +691,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2024-11-22 04:17:08 +0000"
+    },
+    "done": true
+  },
+  "buildcraftenergy:fine_riches": {
+    "criteria": {
+      "oil_desert_biome": "2024-11-22 05:06:59 +0000"
     },
     "done": true
   },
@@ -920,6 +945,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_at_least_9_redstone": "2024-11-22 03:31:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_brick_block": "2024-11-22 05:02:02 +0000"
     },
     "done": true
   },
