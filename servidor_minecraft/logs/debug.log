@@ -32314,3 +32314,104 @@
 [20:03:59] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 170 times.
 
 [20:04:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:04:49] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 175 times.
+
+[20:04:49] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 175 times.
+
+[20:04:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:05:05] [Server thread/TRACE] [FML]: Handshake channel activating
+[20:05:05] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[20:05:05] [Server thread/DEBUG] [FML]:   Next: HELLO
+[20:05:05] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[20:05:05] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[20:05:05] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $ModList:47 mods->FMLHandshakeServerState$2:HELLO
+[20:05:05] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 47 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,buildcraftlib@7.99.24.8,theoneprobe@1.4.28,avaritia@3.3.0,thermaldynamics@2.5.6,redstoneflux@2.1.1,buildcraftsilicon@7.99.24.8,buildcraftenergy@7.99.24.8,jei@4.16.1.1013,vehicle@0.44.1,buildcrafttransport@7.99.24.8,cofhcore@4.6.6,thermalcultivation@0.3.6,highlighter@1.1.7,thermalinnovation@0.3.6,thermalfoundation@2.6.7,mantle@1.12-1.3.3.55,armorpointspp@3.1.4,legendarytooltips@1.1.9,buildcraftbuilders@7.99.24.8,mcp@9.42,buildcraftfactory@7.99.24.8,controlling@3.0.10,journeymap@1.12.2-5.7.1p3,securitycraft@v1.9.11,itemborders@1.2.0,FML@8.0.99.99,obfuscate@0.4.2,thermalexpansion@5.5.7,screenshotclipboard@1.12.2-1.0.1,cofhworld@1.4.0,appleskin@1.0.14,buildcraftcompat@7.99.24.8,customcursormod@1.2.2,tlauncher_custom_cape_skin@1.4,fpsreducer@mc1.12.2-1.20,hbm@NTM-Extended-1.12.2-2.0.2,forge@14.23.5.2860,backpack@3.0.2,codechickenlib@3.2.3.358,buildcraftcore@7.99.24.8,buildcraftrobotics@7.99.24.8,equipmentcompare@1.3.3,advancementplaques@1.4.10,ironchest@1.12.2-7.0.67.844,betterpingdisplay@1.0
+[20:05:05] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
+[20:05:05] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: WAITINGCACK
+[20:05:05] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[20:05:05] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: COMPLETE
+[20:05:05] [Netty Epoll Server IO #0/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[20:05:11] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[20:05:11] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: DONE
+[20:05:11] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[20:05:11] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:05:11] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: elyxdev[/100.113.222.78:49113] logged in with entity id 66079 at (-717.8946474132813, 63.0, 611.9661968753734)
+[20:05:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: elyxdev joined the game
+[20:05:11] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[20:05:39] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 180 times.
+
+[20:05:39] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 180 times.
+
+[20:05:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:06:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:06:29] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 185 times.
+
+[20:06:29] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 185 times.
+
+[20:07:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:07:19] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 190 times.
+
+[20:07:19] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 190 times.
+
+[20:07:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:08:09] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 195 times.
+
+[20:08:09] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 195 times.
+
+[20:08:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:08:47] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-49, 59] in dimension 0 (overworld) while populating chunk [-50, 59], causing cascading worldgen lag.
+[20:08:47] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:08:53] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-52, 66] in dimension 0 (overworld) while populating chunk [-52, 65], causing cascading worldgen lag.
+[20:08:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:08:59] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 200 times.
+
+[20:08:59] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 200 times.
+
+[20:09:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:09:49] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 205 times.
+
+[20:09:49] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 205 times.
+
+[20:10:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:10:39] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 210 times.
+
+[20:10:39] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 210 times.
+
+[20:10:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:11:29] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 215 times.
+
+[20:11:29] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 215 times.
+
+[20:11:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:12:19] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 220 times.
+
+[20:12:19] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 220 times.
+
+[20:12:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:13:09] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 225 times.
+
+[20:13:09] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 225 times.
+
+[20:13:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:13:16] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-86, 81] in dimension 0 (overworld) while populating chunk [-85, 81], causing cascading worldgen lag.
+[20:13:16] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:13:19] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-75, 75] in dimension 0 (overworld) while populating chunk [-75, 76], causing cascading worldgen lag.
+[20:13:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:13:19] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-75, 74] in dimension 0 (overworld) while populating chunk [-75, 76], causing cascading worldgen lag.
+[20:13:19] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:13:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <M4M4Z1T0> [name:"weipoin", x:-953, y:11, z:1021]
+[20:13:24] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-86, 85] in dimension 0 (overworld) while populating chunk [-86, 84], causing cascading worldgen lag.
+[20:13:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:13:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:13:59] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 230 times.
+
+[20:13:59] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 230 times.
+
+[20:14:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:14:49] [Server thread/DEBUG] [FML]: The world 7886e8b (world) may have leaked: seen 235 times.
+
+[20:14:49] [Server thread/DEBUG] [FML]: The world 5a1bff9b (world) may have leaked: seen 235 times.
+
+[20:14:56] [Server thread/TRACE] [FML]: Handshake channel activating
+[20:14:56] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[20:14:56] [Server thread/DEBUG] [FML]:   Next: HELLO
