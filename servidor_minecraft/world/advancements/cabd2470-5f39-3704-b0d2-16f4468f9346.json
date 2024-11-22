@@ -413,6 +413,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_at_least_9_gold_ingot": "2024-11-22 21:14:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_boots": "2024-11-22 04:08:21 +0000"
@@ -712,6 +718,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2024-11-22 21:14:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stonebrick": "2024-11-22 05:32:22 +0000"
@@ -991,6 +1003,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2024-11-22 20:27:59 +0000"
+    },
+    "done": true
+  },
+  "hbm:bobmetalworks": {
+    "criteria": {
+      "crafting_table": "2024-11-22 20:58:32 +0000"
     },
     "done": true
   },
