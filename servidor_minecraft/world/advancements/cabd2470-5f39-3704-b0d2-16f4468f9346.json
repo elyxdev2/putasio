@@ -287,6 +287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-11-22 05:44:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_sand": "2024-11-22 04:35:27 +0000"
@@ -665,6 +671,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2024-11-22 03:56:30 +0000",
+      "beaches": "2024-11-22 05:52:37 +0000",
       "desert_hills": "2024-11-22 04:09:56 +0000",
       "forest_hills": "2024-11-22 03:49:11 +0000",
       "plains": "2024-11-22 03:06:21 +0000",
@@ -880,6 +887,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_at_least_9_diamond": "2024-11-22 05:52:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2024-11-22 03:19:09 +0000"
@@ -937,6 +950,12 @@
     },
     "done": true
   },
+  "hbm:progress_geiger": {
+    "criteria": {
+      "crafting_table": "2024-11-22 05:49:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-11-22 05:04:46 +0000"
@@ -988,6 +1007,12 @@
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2024-11-22 03:32:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_the_recipe": "2024-11-22 05:52:02 +0000"
     },
     "done": true
   },
