@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2024-11-22 19:52:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2024-11-22 05:03:11 +0000"
@@ -361,6 +367,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-11-22 19:50:56 +0000",
       "cooked_beef": "2024-11-22 19:43:42 +0000",
       "beef": "2024-11-22 05:04:19 +0000",
       "apple": "2024-11-22 04:53:16 +0000",
@@ -612,6 +619,12 @@
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2024-11-22 03:25:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar": {
+    "criteria": {
+      "has_reeds": "2024-11-22 19:52:25 +0000"
     },
     "done": true
   },
