@@ -727,6 +727,12 @@
     },
     "done": true
   },
+  "buildcraftfactory:fluid_storage": {
+    "criteria": {
+      "code_trigger": "2024-11-23 00:23:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/pink_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-11-22 04:45:14 +0000"
