@@ -1510,6 +1510,12 @@
     },
     "done": true
   },
+  "buildcraftenergy:fine_riches": {
+    "criteria": {
+      "oil_desert_biome": "2024-11-23 04:19:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_stained_hardened_clay": {
     "criteria": {
       "has_hardened_clay": "2024-11-23 03:02:56 +0000"
