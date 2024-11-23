@@ -413,3 +413,4 @@
 [02:30:56] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
 [02:31:45] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-73, 131] in dimension 0 (overworld) while populating chunk [-72, 132], causing cascading worldgen lag.
 [02:31:45] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[02:35:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 has made the advancement [Metalworks]
