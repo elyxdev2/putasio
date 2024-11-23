@@ -1080,3 +1080,38 @@
 [03:38:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheChamo123 joined the game
 [03:39:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gglancelot fell from a high place
 [03:39:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [M4M4Z1T0: Teleported TheChamo123 to M4M4Z1T0]
+[03:41:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheChamo123 has made the advancement [Suit Up]
+[03:45:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Set own game mode to Survival Mode]
+[03:46:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Set own game mode to Creative Mode]
+[03:46:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Set own game mode to Survival Mode]
+[03:46:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [M4M4Z1T0: Set own game mode to Survival Mode]
+[03:47:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:47:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:47:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:47:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:47:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:47:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:47:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:47:15] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:47:40] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-57, 119] in dimension 0 (overworld) while populating chunk [-58, 119], causing cascading worldgen lag.
+[03:47:40] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:47:41] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-49, 119] in dimension 0 (overworld) while populating chunk [-50, 119], causing cascading worldgen lag.
+[03:47:41] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:47:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [M4M4Z1T0: Set own game mode to Creative Mode]
+[03:47:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [M4M4Z1T0: Set own game mode to Survival Mode]
+[03:48:02] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-64, 122] in dimension 0 (overworld) while populating chunk [-63, 122], causing cascading worldgen lag.
+[03:48:02] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:49:49] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-51, 124] in dimension 0 (overworld) while populating chunk [-52, 124], causing cascading worldgen lag.
+[03:49:49] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:50:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:50:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:50:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:50:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:50:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:50:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:50:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:50:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:50:12] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Off Roader moved wrongly!
+[03:50:24] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-34, 116] in dimension 0 (overworld) while populating chunk [-34, 115], causing cascading worldgen lag.
+[03:50:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[03:50:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Set own game mode to Creative Mode]
