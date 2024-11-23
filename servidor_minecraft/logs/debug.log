@@ -32701,3 +32701,72 @@
 [02:04:38] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: gglancelot[/100.72.187.17:64131] logged in with entity id 139429 at (-1297.011650085769, 72.0, 1210.0143172794667)
 [02:04:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gglancelot joined the game
 [02:04:38] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[02:05:09] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 540 times.
+
+[02:05:09] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 540 times.
+
+[02:05:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:05:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:05:59] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 545 times.
+
+[02:05:59] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 545 times.
+
+[02:06:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gglancelot fell from a high place
+[02:06:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:06:49] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 550 times.
+
+[02:06:49] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 550 times.
+
+[02:07:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:07:39] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 555 times.
+
+[02:07:39] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 555 times.
+
+[02:08:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:08:29] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 560 times.
+
+[02:08:29] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 560 times.
+
+[02:08:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:09:19] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 565 times.
+
+[02:09:19] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 565 times.
+
+[02:09:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:10:09] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 570 times.
+
+[02:10:09] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 570 times.
+
+[02:10:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:10:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 was slain by gglancelot
+[02:10:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gglancelot was slain by Zombie
+[02:10:59] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 575 times.
+
+[02:10:59] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 575 times.
+
+[02:11:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:11:49] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 580 times.
+
+[02:11:49] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 580 times.
+
+[02:11:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:12:39] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 585 times.
+
+[02:12:39] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 585 times.
+
+[02:12:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:12:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gglancelot tried to swim in lava
+[02:13:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:13:29] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 590 times.
+
+[02:13:29] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 590 times.
+
+[02:14:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:14:19] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 595 times.
+
+[02:14:19] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 595 times.
+
+[02:14:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set M4M4Z1T0's game mode to Creative Mode
+[02:14:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:14:58] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-91, 95] in dimension 0 (overworld) while populating chunk [-90, 95], causing cascading worldgen lag.
+[02:14:58] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.

@@ -338,3 +338,10 @@
 [02:04:38] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
 [02:04:38] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: gglancelot[/100.72.187.17:64131] logged in with entity id 139429 at (-1297.011650085769, 72.0, 1210.0143172794667)
 [02:04:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gglancelot joined the game
+[02:06:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gglancelot fell from a high place
+[02:10:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 was slain by gglancelot
+[02:10:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gglancelot was slain by Zombie
+[02:12:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gglancelot tried to swim in lava
+[02:14:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set M4M4Z1T0's game mode to Creative Mode
+[02:14:58] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-91, 95] in dimension 0 (overworld) while populating chunk [-90, 95], causing cascading worldgen lag.
+[02:14:58] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
