@@ -32616,3 +32616,88 @@
 [01:54:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [01:54:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: elyxdev fell from a high place
 [01:54:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Server] mango nangosay mango mango mango mngo mango
+[01:55:09] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 480 times.
+
+[01:55:09] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 480 times.
+
+[01:55:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 fell from a high place
+[01:55:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:55:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <elyxdev> workstation
+[01:55:59] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 485 times.
+
+[01:55:59] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 485 times.
+
+[01:56:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:56:49] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 490 times.
+
+[01:56:49] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 490 times.
+
+[01:56:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:57:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set elyxdev's game mode to Creative Mode
+[01:57:39] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 495 times.
+
+[01:57:39] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 495 times.
+
+[01:57:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:58:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:58:29] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 500 times.
+
+[01:58:29] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 500 times.
+
+[01:59:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[01:59:19] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 505 times.
+
+[01:59:19] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 505 times.
+
+[01:59:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 fell from a high place
+[01:59:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:00:09] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 510 times.
+
+[02:00:09] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 510 times.
+
+[02:00:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:00:59] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 515 times.
+
+[02:00:59] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 515 times.
+
+[02:01:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:01:49] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 520 times.
+
+[02:01:49] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 520 times.
+
+[02:02:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:02:39] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 525 times.
+
+[02:02:39] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 525 times.
+
+[02:02:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:02:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 fell from a high place
+[02:03:29] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 530 times.
+
+[02:03:29] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 530 times.
+
+[02:03:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:04:19] [Server thread/DEBUG] [FML]: The world 23fc65c1 (world) may have leaked: seen 535 times.
+
+[02:04:19] [Server thread/DEBUG] [FML]: The world 380e03a7 (world) may have leaked: seen 535 times.
+
+[02:04:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:04:32] [Server thread/TRACE] [FML]: Handshake channel activating
+[02:04:32] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[02:04:32] [Server thread/DEBUG] [FML]:   Next: HELLO
+[02:04:32] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[02:04:32] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
+[02:04:32] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $ModList:47 mods->FMLHandshakeServerState$2:HELLO
+[02:04:32] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 47 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,buildcraftlib@7.99.24.8,theoneprobe@1.4.28,avaritia@3.3.0,thermaldynamics@2.5.6,redstoneflux@2.1.1,buildcraftsilicon@7.99.24.8,buildcraftenergy@7.99.24.8,jei@4.16.1.1013,vehicle@0.44.1,buildcrafttransport@7.99.24.8,cofhcore@4.6.6,thermalcultivation@0.3.6,highlighter@1.1.7,thermalinnovation@0.3.6,thermalfoundation@2.6.7,mantle@1.12-1.3.3.55,armorpointspp@3.1.4,legendarytooltips@1.1.9,buildcraftbuilders@7.99.24.8,mcp@9.42,buildcraftfactory@7.99.24.8,controlling@3.0.10,journeymap@1.12.2-5.7.1p3,securitycraft@v1.9.11,itemborders@1.2.0,FML@8.0.99.99,obfuscate@0.4.2,thermalexpansion@5.5.7,screenshotclipboard@1.12.2-1.0.1,cofhworld@1.4.0,appleskin@1.0.14,buildcraftcompat@7.99.24.8,customcursormod@1.2.2,tlauncher_custom_cape_skin@1.4,fpsreducer@mc1.12.2-1.20,hbm@NTM-Extended-1.12.2-2.0.2,forge@14.23.5.2860,backpack@3.0.2,codechickenlib@3.2.3.358,buildcraftcore@7.99.24.8,buildcraftrobotics@7.99.24.8,equipmentcompare@1.3.3,advancementplaques@1.4.10,ironchest@1.12.2-7.0.67.844,betterpingdisplay@1.0
+[02:04:32] [Netty Epoll Server IO #5/INFO] [journeymap]: CLIENT
+[02:04:32] [Netty Epoll Server IO #5/DEBUG] [FML]:   Next: WAITINGCACK
+[02:04:32] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[02:04:32] [Netty Epoll Server IO #5/DEBUG] [FML]:   Next: COMPLETE
+[02:04:32] [Netty Epoll Server IO #5/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[02:04:38] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[02:04:38] [Netty Epoll Server IO #5/DEBUG] [FML]:   Next: DONE
+[02:04:38] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[02:04:38] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[02:04:38] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: gglancelot[/100.72.187.17:64131] logged in with entity id 139429 at (-1297.011650085769, 72.0, 1210.0143172794667)
+[02:04:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gglancelot joined the game
+[02:04:38] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
