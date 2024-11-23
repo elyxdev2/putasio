@@ -1205,6 +1205,12 @@
     },
     "done": true
   },
+  "hbm:progress_steel": {
+    "criteria": {
+      "crafting_table": "2024-11-23 19:59:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2024-11-22 03:16:35 +0000"
