@@ -32855,3 +32855,37 @@
 [02:23:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [02:23:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [02:24:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:25:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:26:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:26:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:27:14] [Server thread/DEBUG] [theoneprobe]: The One Probe catched error: 
+java.lang.NoSuchMethodError: net.minecraft.tileentity.MobSpawnerBaseLogic.func_184994_d()Lnet/minecraft/entity/Entity;
+	at mcjty.theoneprobe.apiimpl.providers.DefaultProbeInfoProvider.showMobSpawnerInfo(DefaultProbeInfoProvider.java:127) ~[DefaultProbeInfoProvider.class:?]
+	at mcjty.theoneprobe.apiimpl.providers.DefaultProbeInfoProvider.addProbeInfo(DefaultProbeInfoProvider.java:101) ~[DefaultProbeInfoProvider.class:?]
+	at mcjty.theoneprobe.network.PacketGetInfo.getProbeInfo(PacketGetInfo.java:144) ~[PacketGetInfo.class:?]
+	at mcjty.theoneprobe.network.PacketGetInfo.access$600(PacketGetInfo.java:34) ~[PacketGetInfo.class:?]
+	at mcjty.theoneprobe.network.PacketGetInfo$Handler.handle(PacketGetInfo.java:109) ~[PacketGetInfo$Handler.class:?]
+	at mcjty.theoneprobe.network.PacketGetInfo$Handler.lambda$onMessage$0(PacketGetInfo.java:102) ~[PacketGetInfo$Handler.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_432]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[02:27:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:28:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:29:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:29:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:30:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:30:56] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-71, 137] in dimension 0 (overworld) while populating chunk [-71, 138], causing cascading worldgen lag.
+[02:30:56] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[02:31:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:31:45] [Server thread/WARN] [FML]: HBM's Nuclear Tech - Extended Edition loaded a new chunk [-73, 131] in dimension 0 (overworld) while populating chunk [-72, 132], causing cascading worldgen lag.
+[02:31:45] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[02:32:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:32:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:33:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:34:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[02:35:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
