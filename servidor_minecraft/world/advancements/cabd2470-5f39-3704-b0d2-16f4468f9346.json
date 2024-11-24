@@ -293,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_red_bonemeal": {
+    "criteria": {
+      "has_red_dye": "2024-11-23 22:28:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2024-11-22 03:16:12 +0000"
@@ -348,6 +354,7 @@
       "cooked_beef": "2024-11-22 19:43:42 +0000",
       "beef": "2024-11-22 05:04:19 +0000",
       "apple": "2024-11-22 04:53:16 +0000",
+      "potato": "2024-11-24 00:47:38 +0000",
       "bread": "2024-11-22 04:28:37 +0000",
       "cooked_chicken": "2024-11-22 03:47:46 +0000"
     },
@@ -614,6 +621,12 @@
   "minecraft:recipes/decorations/gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-11-22 23:19:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-11-23 21:40:46 +0000"
     },
     "done": true
   },
@@ -1540,9 +1553,21 @@
     },
     "done": true
   },
+  "hbm:achradpoison": {
+    "criteria": {
+      "impossible": "2024-11-23 23:53:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2024-11-22 03:19:09 +0000"
+    },
+    "done": true
+  },
+  "hbm:progress_desh": {
+    "criteria": {
+      "crafting_table": "2024-11-23 23:42:42 +0000"
     },
     "done": true
   },
