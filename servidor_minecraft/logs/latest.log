@@ -1,345 +1,434 @@
-[00:26:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[00:26:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[00:26:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[00:26:33] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[00:26:33] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[00:26:33] [main/INFO] [FML]: Searching /workspaces/putasio/servidor_minecraft/./mods for mods
-[00:26:33] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [1.12.2] SecurityCraft v1.9.11.jar
-[00:26:33] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
-[00:26:33] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.62_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[00:26:33] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[00:26:33] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
-[00:26:33] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
-[00:26:33] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spark-unforged-1.11.2-forge.jar
-[00:26:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:26:33] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[00:26:33] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/workspaces/putasio/servidor_minecraft/./mods/%5B1.12.2%5D%20SecurityCraft%20v1.9.11.jar Service=LaunchWrapper Env=SERVER
-[00:26:33] [main/WARN] [FML]: The coremod SecurityCraftLoadingPlugin (net.geforcemods.securitycraft.SecurityCraftLoadingPlugin) is not signed!
-[00:26:33] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[00:26:33] [main/WARN] [FML]: The coremod Spark (me.lucko.spark.forge.mixin.SparkMixinPlugin) is not signed!
-[00:26:33] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
-[00:26:33] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[00:26:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[00:26:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:26:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:26:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:26:35] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[00:26:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:26:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:26:35] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[00:26:35] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@28a6301f
-[00:26:35] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
-[00:26:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[00:26:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:26:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[00:26:35] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[00:26:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[00:26:35] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[00:26:36] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[00:26:36] [main/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
-[00:26:36] [main/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
-[00:26:37] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
-[00:26:37] [main/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
-[00:26:37] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
-[00:26:39] [main/INFO] [BetterFps]: Patching net.minecraft.server.dedicated.DedicatedServer... (nz)
-[00:26:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[00:26:40] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[00:26:40] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[00:26:40] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[00:26:40] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[00:26:40] [Server thread/WARN] [FML]: Enabling removal of erroring Entities - USE AT YOUR OWN RISK
-[00:26:40] [Server thread/WARN] [FML]: Enabling removal of erroring Tile Entities - USE AT YOUR OWN RISK
-[00:26:40] [Server thread/INFO] [FML]: Searching /workspaces/putasio/servidor_minecraft/./mods for mods
-[00:26:41] [Server thread/WARN] [FML]: Mod securitycraft is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version v1.9.11
-[00:26:41] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
-[00:26:41] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
-[00:26:43] [Server thread/WARN] [FML]: Mod trashslot is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 8.4.10
-[00:26:43] [Server thread/INFO] [FML]: Forge Mod Loader has identified 44 mods to load
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for buildcraftbuilders: assets/buildcraftbuilders/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for buildcraftcore: assets/buildcraftcore/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for buildcraftenergy: assets/buildcraftenergy/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for buildcraftfactory: assets/buildcraftfactory/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for buildcraftrobotics: assets/buildcraftrobotics/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for buildcraftsilicon: assets/buildcraftsilicon/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for buildcrafttransport: assets/buildcrafttransport/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for clumps: assets/clumps/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for cofhcore: assets/cofhcore/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for redstoneflux: assets/redstoneflux/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for sit: assets/sit/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for spark: assets/spark/lang/en_us.lang
-[00:26:43] [Server thread/WARN] [FML]: Missing English translation for thutcore_compat: assets/thutcore_compat/lang/en_us.lang
-[00:26:43] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, obfuscate, securitycraft, avaritia, backpack, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, clumps, codechickenlib, cofhcore, cofhworld, creativecore, ironchest, jei, journeymap, mantle, hbm, playerrevive, redstoneflux, sit, spark, tconstruct, theoneprobe, thermalcultivation, thermaldynamics, thermalexpansion, thermalfoundation, thermalinnovation, thutcore_compat, thutcore, thuttech, trashslot, vehicle] at CLIENT
-[00:26:43] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, obfuscate, securitycraft, avaritia, backpack, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, clumps, codechickenlib, cofhcore, cofhworld, creativecore, ironchest, jei, journeymap, mantle, hbm, playerrevive, redstoneflux, sit, spark, tconstruct, theoneprobe, thermalcultivation, thermaldynamics, thermalexpansion, thermalfoundation, thermalinnovation, thutcore_compat, thutcore, thuttech, trashslot, vehicle] at SERVER
-[00:26:44] [Server thread/ERROR] [FML]: The mod backpack is expecting signature @FINGERPRINT@ for source backpack-3.0.2-1.12.2.jar, however there is no signature matching that description
-[00:26:44] [Server thread/ERROR] [FML]: The mod redstoneflux is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source RedstoneFlux-1.12-2.1.1.1-universal.jar, however there is no signature matching that description
-[00:26:44] [Server thread/ERROR] [FML]: The mod cofhworld is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source CoFHWorld-1.12.2-1.4.0.1-universal.jar, however there is no signature matching that description
-[00:26:45] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselIntegration; missing dependency: chisel
-[00:26:45] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
-[00:26:45] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
-[00:26:45] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
-[00:26:45] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse quarkIntegration; missing dependency: quark
-[00:26:45] [Server thread/INFO] [tconstruct]: Preparing to take over the world
-[00:26:45] [Server thread/ERROR] [FML]: The mod thermalfoundation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalFoundation-1.12.2-2.6.7.1-universal.jar, however there is no signature matching that description
-[00:26:45] [Server thread/ERROR] [FML]: The mod thermalexpansion is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalExpansion-1.12.2-5.5.7.1-universal.jar, however there is no signature matching that description
-[00:26:45] [Server thread/ERROR] [FML]: The mod thermalcultivation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalCultivation-1.12.2-0.3.6.1-universal.jar, however there is no signature matching that description
-[00:26:45] [Server thread/ERROR] [FML]: The mod thermaldynamics is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalDynamics-1.12.2-2.5.6.1-universal.jar, however there is no signature matching that description
-[00:26:45] [Server thread/ERROR] [FML]: The mod thermalinnovation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalInnovation-1.12.2-0.3.6.1-universal.jar, however there is no signature matching that description
-[00:26:45] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[00:26:45] [Server thread/INFO] [FML]: Found 1342 ObjectHolder annotations
-[00:26:45] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[00:26:45] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[00:26:45] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[00:26:45] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalinnovation] Starting version check at https://raw.github.com/cofh/version/master/thermalinnovation_update.json
-[00:26:45] [Server thread/INFO] [Obfuscate]: Successfully injected SyncedPlayerData capability
-[00:26:46] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalinnovation] Found status: UP_TO_DATE Target: null
-[00:26:46] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[00:26:46] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Found status: UP_TO_DATE Target: null
-[00:26:46] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Starting version check at https://raw.github.com/cofh/version/master/cofhworld_update.json
-[00:26:46] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Found status: UP_TO_DATE Target: null
-[00:26:46] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Starting version check at https://mod-buildcraft.com/version/versions-compat.json
-[00:26:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `avaritia_extreme_crafting_table`, expected `avaritia`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `neutron_collector`, expected `avaritia`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `neutronium_compressor`, expected `avaritia`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:46] [Server thread/INFO] [BuildCraft]: 
-[00:26:46] [Server thread/INFO] [BuildCraft]: Starting BuildCraft 7.99.24.8
-[00:26:46] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
-[00:26:46] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
-[00:26:46] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
-[00:26:46] [Server thread/INFO] [BuildCraft]:   Branch HEAD
-[00:26:46] [Server thread/INFO] [BuildCraft]:   Commit 68370005a10488d02a4bb4b8df86bbc62633d216
-[00:26:46] [Server thread/INFO] [BuildCraft]:     Bump version for release relase, fix a java 13+ compile error, tweak changelog, and fix engines chaining one block more than they should have.
-[00:26:46] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
-[00:26:46] [Server thread/INFO] [BuildCraft]: 
-[00:26:46] [Server thread/INFO] [BuildCraft]: Loaded Modules:
-[00:26:46] [Server thread/INFO] [BuildCraft]:   - lib
-[00:26:46] [Server thread/INFO] [BuildCraft]:   - core
-[00:26:46] [Server thread/INFO] [BuildCraft]:   - builders
-[00:26:46] [Server thread/INFO] [BuildCraft]:   - energy
-[00:26:46] [Server thread/INFO] [BuildCraft]:   - factory
-[00:26:46] [Server thread/INFO] [BuildCraft]:   - robotics
-[00:26:46] [Server thread/INFO] [BuildCraft]:   - silicon
-[00:26:46] [Server thread/INFO] [BuildCraft]:   - transport
-[00:26:46] [Server thread/INFO] [BuildCraft]:   - compat
-[00:26:46] [Server thread/INFO] [BuildCraft]: Missing Modules:
-[00:26:46] [Server thread/INFO] [BuildCraft]: 
-[00:26:47] [Server thread/INFO] [BuildCraft]: [debugger] Not a dev environment!
-[00:26:47] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[00:26:47] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Found status: AHEAD Target: null
-[00:26:47] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Starting version check at https://raw.github.com/cofh/version/master/thermalfoundation_update.json
-[00:26:47] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Found status: UP_TO_DATE Target: null
-[00:26:47] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[00:26:47] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[00:26:47] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
-[00:26:47] [Server thread/INFO] [theoneprobe]: The One Probe Detected RedstoneFlux: enabling support
-[00:26:47] [Server thread/INFO] [BuildCraft]: 
-[00:26:47] [Server thread/INFO] [BuildCraft]: Starting BuildCraftCompat 7.99.24.8
-[00:26:47] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
-[00:26:47] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
-[00:26:47] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
-[00:26:47] [Server thread/INFO] [BuildCraft]:   Branch 8.0.x-1.12.2
-[00:26:47] [Server thread/INFO] [BuildCraft]:   Commit 16adfdb3d6a3362ba3659be7d5e9b7d12af7eee5
-[00:26:47] [Server thread/INFO] [BuildCraft]:     Bump for release.
-[00:26:47] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
-[00:26:47] [Server thread/INFO] [BuildCraft]: 
-[00:26:47] [Server thread/INFO] [BuildCraft]: [compat] Module list:
-[00:26:47] [Server thread/INFO] [BuildCraft]: [compat]   x forestry (It cannot load)
-[00:26:47] [Server thread/INFO] [BuildCraft]: [compat]   + theoneprobe
-[00:26:47] [Server thread/INFO] [BuildCraft]: [compat]   x crafttweaker (It cannot load)
-[00:26:47] [Server thread/INFO] [BuildCraft]: [compat]   x ic2 (It cannot load)
-[00:26:47] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: UP_TO_DATE Target: null
-[00:26:47] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalexpansion] Starting version check at https://raw.github.com/cofh/version/master/thermalexpansion_update.json
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalexpansion] Found status: UP_TO_DATE Target: null
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: UP_TO_DATE Target: null
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [thermaldynamics] Starting version check at https://raw.github.com/cofh/version/master/thermaldynamics_update.json
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [thermaldynamics] Found status: UP_TO_DATE Target: null
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
-[00:26:48] [Server thread/INFO] [CoFH World]: Registering default Feature Templates...
-[00:26:48] [Server thread/INFO] [CoFH World]: Registering default World Generators...
-[00:26:48] [Server thread/INFO] [CoFH World]: Verifying or creating base world generation directory...
-[00:26:48] [Server thread/INFO] [CoFH World]: Complete.
-[00:26:48] [Server thread/ERROR] [hbm]: Warning - Open GL 3.3 not supported! Disabling 3.3 effects...
-[00:26:48] [Server thread/ERROR] [hbm]: Shader effects manually disabled
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [thutcore] Starting version check at https://raw.githubusercontent.com/Thutmose/Thut/master/ThutCore/versions.json
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [thutcore] Found status: BETA Target: null
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Found status: UP_TO_DATE Target: null
-[00:26:48] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalcultivation] Starting version check at https://raw.github.com/cofh/version/master/thermalcultivation_update.json
-[00:26:49] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalcultivation] Found status: UP_TO_DATE Target: null
-[00:26:51] [Server thread/INFO] [hbm]: Searching for new versions...
-[00:26:51] [Server thread/INFO] [hbm]: Found version NTM-Extended-1.12.2-2.0.2
-[00:26:51] [Server thread/INFO] [hbm]: Found changelog Added more Conveyor stuff$Added 1.7 Gerald Crater$Added RBMK Fuel Uncrafting JEI Tab$Added onArmor Jetpack fueling$Added rare earth ore chunk$Optimized Nuke TPS/Speed/FPS$Changed Desh and Saturnite battery balance$Changed DFC to explode after overheating 60s even with jamming$Fixed Meteor Dungeons$Fixed HE-RF Converters$Fixed MKU and 40 more bugs$Removed chemplant oil processing by default
-[00:26:51] [Server thread/INFO] [hbm]: Version checker ended.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:52] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:53] [Server thread/INFO] [FML]: Applying holder lookups
-[00:26:53] [Server thread/INFO] [FML]: Holder lookups applied
-[00:26:53] [Server thread/INFO] [Backpack]: Loading items...
-[00:26:53] [Server thread/INFO] [Backpack]: 15 item features loaded.
-[00:26:53] [Server thread/INFO] [FML]: Applying holder lookups
-[00:26:53] [Server thread/INFO] [FML]: Holder lookups applied
-[00:26:53] [Server thread/INFO] [FML]: Applying holder lookups
-[00:26:53] [Server thread/INFO] [FML]: Holder lookups applied
-[00:26:53] [Server thread/INFO] [FML]: Applying holder lookups
-[00:26:53] [Server thread/INFO] [FML]: Holder lookups applied
-[00:26:53] [Server thread/INFO] [FML]: Injecting itemstacks
-[00:26:53] [Server thread/INFO] [FML]: Itemstack injection complete
-[00:26:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[00:26:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[00:26:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[00:26:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[00:26:53] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[00:26:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:26:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[00:26:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:26:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:26:54] [Server thread/INFO] [Backpack]: Loading recipes...
-[00:26:54] [Server thread/INFO] [Backpack]: 15 recipe features loaded.
-[00:26:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[00:26:54] [Server thread/INFO] [Avaritia]: rawMeats: []
-[00:26:54] [Server thread/INFO] [Avaritia]: knownMeats: [1xitem.beefRaw@0, 1xitem.chickenRaw@0, 1xitem.porkchopRaw@0, 1xitem.rabbitRaw@0, 1xitem.fish@0]
-[00:26:54] [Server thread/INFO] [STDOUT]: [com.hbm.main.ModEventHandler:craftingRegister:1195]: Memory usage before: 2011083016
-[00:26:55] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
-[00:26:55] [Server thread/INFO] [STDOUT]: [com.hbm.main.ModEventHandler:craftingRegister:1200]: Memory usage after: 2420676000
-[00:26:55] [Server thread/INFO] [STDOUT]: [com.hbm.main.ModEventHandler:doesArrayContain:1221]: On Recipe Register
-[00:26:55] [Server thread/INFO] [FML]: Applying holder lookups
-[00:26:55] [Server thread/INFO] [FML]: Holder lookups applied
-[00:26:55] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the ocean oil biome.
-[00:26:55] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the desert oil biome.
-[00:26:55] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the oil spout generator
-[00:26:55] [Server thread/INFO] [BuildCraft]: [energy.oilgen] Registered the oil biome initiializer
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for ingotTcAlloy to ingotAnyResistantAlloy
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for dustTcAlloy to dustAnyResistantAlloy
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for ingotCdAlloy to ingotAnyResistantAlloy
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for dustCdAlloy to dustAnyResistantAlloy
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for ingotPolymer to ingotAnyPlastic
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for dustPolymer to dustAnyPlastic
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for blockPolymer to blockAnyPlastic
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for ingotBakelite to ingotAnyPlastic
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for dustBakelite to dustAnyPlastic
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for blockBakelite to blockAnyPlastic
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for ingotRubber to ingotAnyRubber
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for ingotLatex to ingotAnyRubber
-[00:26:55] [Server thread/INFO] [hbm]: OreDict: Re-registration for oiltar to anyTar
-[00:26:56] [Server thread/INFO] [thermalfoundation]: Thermal Foundation: Tinkers' Construct Plugin Enabled.
-[00:26:56] [Server thread/INFO] [FML]: Injecting itemstacks
-[00:26:56] [Server thread/INFO] [FML]: Itemstack injection complete
-[00:26:56] [Server thread/INFO] [hbm]: CraftTweaker integration decativated
-[00:26:56] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
-[00:26:58] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 1842.999956 ms
-[00:26:58] [Server thread/INFO] [thermalexpansion]: Thermal Expansion: The One Probe Plugin Enabled.
-[00:26:58] [Server thread/INFO] [thermalexpansion]: Thermal Expansion: Tinkers' Construct Plugin Enabled.
-[00:26:58] [Server thread/INFO] [cofhcore]: CoFH Core: Load Complete.
-[00:26:58] [Server thread/INFO] [CoFH World]: Accumulating world generation files from: "/workspaces/putasio/servidor_minecraft/config/cofh/world"
-[00:26:58] [Server thread/INFO] [CoFH World]: Found a total of 3 world generation files.
-[00:26:59] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/01_thermalfoundation_ores.json":
-[00:26:59] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/02_thermalfoundation_oil.json":
-[00:26:59] [Server thread/INFO] [CoFH World]: Reading world generation info from: "cofh/world/03_thermalfoundation_clathrates.json":
-[00:26:59] [Server thread/INFO] [CoFH World]: CoFH World: Load Complete.
-[00:26:59] [Server thread/INFO] [thermalfoundation]: [Whitelist] Reading established Whitelist from file.
-[00:26:59] [Server thread/INFO] [thermalfoundation]: Thermal Foundation: Load Complete.
-[00:26:59] [Server thread/INFO] [thermalexpansion]: Thermal Expansion: Load Complete.
-[00:26:59] [Server thread/INFO] [thermalcultivation]: Thermal Cultivation: Load Complete.
-[00:26:59] [Server thread/INFO] [thermaldynamics]: Thermal Dynamics: Load Complete.
-[00:26:59] [Server thread/INFO] [thermalinnovation]: Thermal Innovation: Load Complete.
-[00:26:59] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 44 mods
-[00:26:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[00:26:59] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[00:27:00] [Server thread/INFO] [FML]: Applying holder lookups
-[00:27:00] [Server thread/INFO] [FML]: Holder lookups applied
-[00:27:01] [Server thread/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
-[00:27:01] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@707ffb2a)
-[00:27:01] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 622 advancements
-[00:27:03] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@707ffb2a)
-[00:27:03] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@707ffb2a)
-[00:27:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[00:27:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%
-[00:27:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.967s)! For help, type "help" or "?"
-[00:27:04] [Server thread/INFO] [spark]: Starting background profiler...
-[00:27:05] [Netty Epoll Server IO #2/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
-[00:27:06] [Netty Epoll Server IO #3/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
-[00:27:07] [BetterFps Update Checker/WARN] [BetterFps]: Could not check for updates: widget.mcf.li
-[00:27:07] [Server thread/INFO] [FML]: Unloading dimension -1
-[00:27:07] [Server thread/INFO] [FML]: Unloading dimension 1
-[00:27:17] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
-[00:27:17] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 56 mods : thutcore_compat@1.0,buildcraftlib@7.99.24.8,trashslot@8.4.10,creativecoredummy@1.0.0,buildcraftenergy@7.99.24.8,jei@4.16.1.1013,buildcrafttransport@7.99.24.8,cofhcore@4.6.6,thermalcultivation@0.3.6,thermalinnovation@0.3.6,thermalfoundation@2.6.7,mcp@9.42,clumps@3.1.2,controlling@3.0.10,journeymap@1.12.2-5.7.1p3,itemborders@1.2.0,cofhworld@1.4.0,tlauncher_custom_cape_skin@1.4,fpsreducer@mc1.12.2-1.20,hbm@NTM-Extended-1.12.2-2.0.2,forge@14.23.5.2860,buildcraftrobotics@7.99.24.8,equipmentcompare@1.3.3,advancementplaques@1.4.10,ironchest@1.12.2-7.0.67.844,betterpingdisplay@1.0,minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,theoneprobe@1.4.28,avaritia@3.3.0,thermaldynamics@2.5.6,redstoneflux@2.1.1,buildcraftsilicon@7.99.24.8,creativecore@1.10.0,vehicle@0.44.1,highlighter@1.1.7,mantle@1.12-1.3.3.55,armorpointspp@3.1.4,legendarytooltips@1.1.9,buildcraftbuilders@7.99.24.8,buildcraftfactory@7.99.24.8,securitycraft@v1.9.11,sit@v1.3,FML@8.0.99.99,obfuscate@0.4.2,thermalexpansion@5.5.7,screenshotclipboard@1.12.2-1.0.1,appleskin@1.0.14,buildcraftcompat@7.99.24.8,customcursormod@1.2.2,backpack@3.0.2,codechickenlib@3.2.3.358,thuttech@6.1.6,playerrevive@1.0,thutcore@5.21.0,buildcraftcore@7.99.24.8
-[00:27:17] [Netty Epoll Server IO #5/INFO] [journeymap]: CLIENT
-[00:27:17] [Netty Epoll Server IO #5/INFO] [FML]: Attempting connection with missing mods [spark] at CLIENT
-[00:27:17] [Netty Epoll Server IO #5/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
-[00:27:23] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[00:27:23] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: elyxdev[/100.113.222.78:20653] logged in with entity id 258 at (-1289.636700000623, 72.65625, 1189.8963762425385)
-[00:27:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: elyxdev joined the game
-[00:27:24] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 5a6ab59e-5b8d-49a8-86ba-4c4a1a3618c1
-[00:28:53] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
-[00:28:53] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 56 mods : thutcore_compat@1.0,buildcraftlib@7.99.24.8,trashslot@8.4.10,creativecoredummy@1.0.0,buildcraftenergy@7.99.24.8,jei@4.16.1.1013,buildcrafttransport@7.99.24.8,cofhcore@4.6.6,thermalcultivation@0.3.6,thermalinnovation@0.3.6,thermalfoundation@2.6.7,mcp@9.42,clumps@3.1.2,controlling@3.0.10,journeymap@1.12.2-5.7.1p3,itemborders@1.2.0,cofhworld@1.4.0,tlauncher_custom_cape_skin@1.4,fpsreducer@mc1.12.2-1.20,hbm@NTM-Extended-1.12.2-2.0.2,forge@14.23.5.2860,buildcraftrobotics@7.99.24.8,equipmentcompare@1.3.3,advancementplaques@1.4.10,ironchest@1.12.2-7.0.67.844,betterpingdisplay@1.0,minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,theoneprobe@1.4.28,avaritia@3.3.0,thermaldynamics@2.5.6,redstoneflux@2.1.1,buildcraftsilicon@7.99.24.8,creativecore@1.10.0,vehicle@0.44.1,highlighter@1.1.7,mantle@1.12-1.3.3.55,armorpointspp@3.1.4,legendarytooltips@1.1.9,buildcraftbuilders@7.99.24.8,buildcraftfactory@7.99.24.8,securitycraft@v1.9.11,sit@v1.3,FML@8.0.99.99,obfuscate@0.4.2,thermalexpansion@5.5.7,screenshotclipboard@1.12.2-1.0.1,appleskin@1.0.14,buildcraftcompat@7.99.24.8,customcursormod@1.2.2,backpack@3.0.2,codechickenlib@3.2.3.358,thuttech@6.1.6,playerrevive@1.0,thutcore@5.21.0,buildcraftcore@7.99.24.8
-[00:28:53] [Netty Epoll Server IO #7/INFO] [journeymap]: CLIENT
-[00:28:53] [Netty Epoll Server IO #7/INFO] [FML]: Attempting connection with missing mods [spark] at CLIENT
-[00:28:53] [Netty Epoll Server IO #7/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
-[00:28:57] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[00:28:57] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: M4M4Z1T0[/100.102.36.85:60986] logged in with entity id 1535 at (-1266.338312310596, 72.25220334025373, 1173.4593649789488)
-[00:28:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 joined the game
-[00:29:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Set own game mode to Survival Mode]
-[00:31:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: elyxdev is bleeding...
-[00:31:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: elyxdev burned to death
-[00:31:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Teleported elyxdev to M4M4Z1T0]
-[00:34:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Teleported elyxdev to M4M4Z1T0]
-[00:34:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Set own game mode to Creative Mode]
-[00:35:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Set own game mode to Survival Mode]
-[00:37:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: elyxdev is bleeding...
-[00:37:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 is bleeding...
-[00:37:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 was shot in the head by elyxdev.
-[00:42:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Set own game mode to Creative Mode]
-[00:43:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [elyxdev: Set own game mode to Survival Mode]
-[00:47:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [M4M4Z1T0: Teleported M4M4Z1T0 to elyxdev]
-[00:48:08] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: elyxdev lost connection: Disconnected
-[00:48:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: elyxdev left the game
-[00:48:13] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: M4M4Z1T0 lost connection: Disconnected
-[00:48:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: M4M4Z1T0 left the game
-[00:48:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
-[00:48:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[00:48:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[00:48:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[00:48:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[00:48:26] [Server thread/INFO] [FML]: Unloading dimension 0
-[00:48:26] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[00:48:26] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[00:48:26] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[23Dec2024 22:29:32.863] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[23Dec2024 22:29:32.867] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[23Dec2024 22:29:33.436] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[23Dec2024 22:29:33.477] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/putasio/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[23Dec2024 22:29:33.782] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/putasio/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[23Dec2024 22:29:33.784] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/putasio/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23Dec2024 22:29:33.785] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/putasio/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23Dec2024 22:29:33.786] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/putasio/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23Dec2024 22:29:34.008] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[23Dec2024 22:29:36.028] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Dec2024 22:29:36.266] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[23Dec2024 22:29:36.267] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[23Dec2024 22:29:36.285] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 22:29:36.656] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[23Dec2024 22:29:36.702] [main/INFO] [Puzzles Lib/]: Loading 60 mods:
+	- alexscaves 2.0.2
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.2.14
+	- astikorcarts 1.1.8
+	- balm 7.3.10
+		\-- kuma_api 20.1.9-SNAPSHOT
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterfortresses 1.20-Forge-2.0.6
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- camera 1.20.1-1.0.19
+	- canary 0.3.3
+	- citadel 2.6.1
+	- cloth_config 11.1.136
+	- clumps 12.0.0.4
+	- comforts 6.4.0+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- creativecore 2.12.27
+	- ctov 3.4.10
+	- ferritecore 6.0.1
+	- forge 47.3.7
+	- fusion 1.1.1
+	- geckolib 4.4.9
+	- hangglider 8.0.1
+	- iceandfire 2.1.13-1.20.1
+	- immersive_aircraft 1.1.5+1.20.1
+	- ironchest 1.20.1-14.4.4
+	- ironshulkerbox 1.20.1-5.3.2
+	- jade 11.12.2+forge
+	- jei 15.20.0.105
+	- lithostitched 1.3.8
+	- magistuarmory 9.19
+	- majruszlibrary 7.0.8
+	- majruszsdifficulty 1.9.10
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.1
+	- notenoughcrashes 4.4.7+1.20.1
+	- playerrevive 2.0.30
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- rechiseled 1.1.6
+	- securitycraft 1.9.12
+	- servercore 1.5.2+1.20.1
+		\-- mixinextras 0.3.1
+	- sit 1.3.5
+	- smallships 2.0.0-b1.4
+	- spark 1.10.53
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.17+a
+	- trashslot 15.1.0
+	- travelersbackpack 9.1.16
+	- treechop 0.18.8
+	- unusualprehistory 1.5.0.3
+	- voicechat 1.20.1-2.5.27
+	- walkietalkie 1.3.0
+	- waystones 14.1.6
+	- yungsapi 1.20-Forge-4.0.6
+	- yungsbridges 1.20-Forge-4.0.3
+[23Dec2024 22:29:36.712] [main/WARN] [mixin/]: Reference map 'smallships-forge-refmap.json' for smallships.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 22:29:38.905] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
+[23Dec2024 22:29:38.908] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[23Dec2024 22:29:38.909] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[23Dec2024 22:29:39.093] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via ca.fxco.memoryleakfix.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[23Dec2024 22:29:44.314] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[23Dec2024 22:29:45.633] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[23Dec2024 22:29:45.634] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[23Dec2024 22:29:46.125] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for hangglider:main
+[23Dec2024 22:29:46.579] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.2+1.20.1!
+[23Dec2024 22:29:46.664] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[23Dec2024 22:29:46.682] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id walkietalkie:updatewalkietalkie_c2s
+[23Dec2024 22:29:46.683] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id walkietalkie:updatespeaker_c2s
+[23Dec2024 22:29:46.684] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id walkietalkie:activatekeypressed_c2s
+[23Dec2024 22:29:46.743] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[23Dec2024 22:29:46.959] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[23Dec2024 22:29:46.960] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[23Dec2024 22:29:47.408] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@23dbd676 has been registered twice for the same name treechop:chop_wood.
+[23Dec2024 22:29:48.940] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[23Dec2024 22:29:49.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/putasio/servidor_minecraft/config/unusualprehistory-common.toml is not correct. Correcting
+[23Dec2024 22:29:49.125] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key brachi_sound_volume was corrected from 3.0 to its default, 3.0. 
+[23Dec2024 22:29:49.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key brachi_teen_sound_volume was corrected from 1.5 to its default, 1.5. 
+[23Dec2024 22:29:49.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rex_sound_volume was corrected from 0.5 to its default, 0.5. 
+[23Dec2024 22:29:49.133] [Thread-3/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/putasio/servidor_minecraft/config/unusualprehistory-common.toml is not correct. Correcting
+[23Dec2024 22:29:49.183] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[23Dec2024 22:29:49.247] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/ProgressiveDifficulty/update.json
+[23Dec2024 22:29:49.301] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[23Dec2024 22:29:49.333] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[23Dec2024 22:29:49.337] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[23Dec2024 22:29:49.362] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[23Dec2024 22:29:49.375] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'walkietalkie'
+[23Dec2024 22:29:49.471] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[23Dec2024 22:29:49.472] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[23Dec2024 22:29:49.472] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[23Dec2024 22:29:49.472] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[23Dec2024 22:29:49.507] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszsdifficulty] Found status: UP_TO_DATE Current: 1.9.10 Target: null
+[23Dec2024 22:29:49.507] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[23Dec2024 22:29:49.655] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[23Dec2024 22:29:49.667] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[23Dec2024 22:29:49.678] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[23Dec2024 22:29:49.694] [modloading-worker-0/INFO] [de.mennomax.astikorcarts.AstikorCarts/]: Automatic pull animal configuration:
+pull_animals = [
+    "minecraft:camel",
+    "minecraft:donkey",
+    "minecraft:horse",
+    "minecraft:mule",
+    "minecraft:skeleton_horse",
+    "minecraft:zombie_horse",
+    "minecraft:player",
+    "iceandfire:hippocampus",
+    "iceandfire:dread_horse",
+    "alexscaves:candicorn"
+  ]
+[23Dec2024 22:29:49.696] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[23Dec2024 22:29:49.702] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[23Dec2024 22:29:49.705] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.camera.integration.waila.PluginCamera
+[23Dec2024 22:29:49.706] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[23Dec2024 22:29:49.876] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[23Dec2024 22:29:49.876] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[23Dec2024 22:29:49.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
+[23Dec2024 22:29:49.936] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[23Dec2024 22:29:49.946] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[23Dec2024 22:29:49.946] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Dec2024 22:29:50.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[23Dec2024 22:29:50.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[23Dec2024 22:29:50.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: UP_TO_DATE Current: 3.4.10 Target: null
+[23Dec2024 22:29:50.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[23Dec2024 22:29:50.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.27 Target: null
+[23Dec2024 22:29:50.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/hangglider.json
+[23Dec2024 22:29:50.741] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[23Dec2024 22:29:50.741] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[23Dec2024 22:29:50.843] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.20.1-1.0.19 Target: null
+[23Dec2024 22:29:50.844] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[23Dec2024 22:29:50.951] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[23Dec2024 22:29:50.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[23Dec2024 22:29:50.969] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[23Dec2024 22:29:50.969] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[23Dec2024 22:29:50.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.25 Target: null
+[23Dec2024 22:29:50.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smallships] Starting version check at https://raw.githubusercontent.com/talhanation/smallships/main/update.json
+[23Dec2024 22:29:50.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smallships] Found status: UP_TO_DATE Current: 2.0.0-b1.4 Target: null
+[23Dec2024 22:29:50.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Starting version check at https://raw.githubusercontent.com/Majrusz/MinecraftCommon/main/Library/update.json
+[23Dec2024 22:29:50.996] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [majruszlibrary] Found status: AHEAD Current: 7.0.8 Target: null
+[23Dec2024 22:29:51.885] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Dec2024 22:29:53.257] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/putasio/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23209!/assets/.mcassetsroot' uses unexpected schema
+[23Dec2024 22:29:53.257] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/putasio/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23209!/data/.mcassetsroot' uses unexpected schema
+[23Dec2024 22:29:55.201] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/cardboard_box as it is missing following references: wares:cardboard_box (from [forge]ctov-3.4.10.jar)
+[23Dec2024 22:29:55.207] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/sealed_delivery_agreement as it is missing following references: wares:sealed_delivery_agreement (from [forge]ctov-3.4.10.jar)
+[23Dec2024 22:29:55.809] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ctov:chests/village/village_forager
+com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
+	at net.minecraft.util.GsonHelper.m_13912_(GsonHelper.java:181) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer.m_7267_(TagEntry.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer.m_7267_(TagEntry.java:72) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23214!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23214!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[23Dec2024 22:29:56.060] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe unusualprehistory:trike_shield_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[23Dec2024 22:29:56.087] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[23Dec2024 22:29:56.209] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:main/tame_barina: Failed to parse 'location' field
+[23Dec2024 22:29:56.286] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3067 advancements
+[23Dec2024 22:29:56.305] [main/INFO] [rechiseled/]: Loaded 44 chiseling recipes
+[23Dec2024 22:29:56.309] [main/INFO] [com.peeko32213.unusualprehistory.common.data.AnalyzerRecipeJsonManager/]: Data loader for unusualprehistory/analyzer loaded 14 jsons
+[23Dec2024 22:29:56.310] [main/INFO] [com.peeko32213.unusualprehistory.common.data.LootFruitJsonManager/]: Data loader for unusualprehistory/trades loaded 4 jsons
+[23Dec2024 22:29:56.330] [main/INFO] [com.peeko32213.unusualprehistory.common.data.EncyclopediaJsonManager/]: Data loader for unusualprehistory/encyclopedia loaded 47 jsons
+[23Dec2024 22:29:57.491] [main/INFO] [majruszlibrary/]: [majruszsdifficulty.json] Reloading configuration file took 9 milliseconds
+[23Dec2024 22:29:57.493] [main/INFO] [majruszlibrary/]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
+[23Dec2024 22:29:57.494] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[23Dec2024 22:29:57.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Dec2024 22:29:57.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Dec2024 22:29:57.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Dec2024 22:29:57.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Dec2024 22:29:57.674] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23Dec2024 22:29:57.746] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23Dec2024 22:29:57.747] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[23Dec2024 22:29:57.747] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23Dec2024 22:29:57.747] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[23Dec2024 22:29:57.760] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
+[23Dec2024 22:29:57.761] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 22:29:57.761] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[23Dec2024 22:29:57.762] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[23Dec2024 22:29:57.762] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[23Dec2024 22:29:57.769] [Server thread/INFO] [Puzzles Lib/]: Loading server config for hangglider
+[23Dec2024 22:29:57.963] [Server thread/INFO] [spark/]: Starting background profiler...
+[23Dec2024 22:29:58.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Dec2024 22:29:58.332] [Server thread/WARN] [mixin/]: @Redirect conflict. Skipping servercore.common.mixins.json:optimizations.ticking.chunk.cache.ServerChunkCacheMixin->@Redirect::servercore$noList(I)Ljava/util/ArrayList; with priority 900, already redirected by canary.mixins.json:alloc.chunk_ticking.ServerChunkCacheMixin->@Redirect::redirectChunksListClone(I)Ljava/util/ArrayList; with priority 1000
+[23Dec2024 22:30:01.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Dec2024 22:30:06.697] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:06.703] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:06.704] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:06.705] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:06.705] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:06.706] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:06.707] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:06.707] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:06.708] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:06.709] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:06.943] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:30:07.443] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
+[23Dec2024 22:30:07.928] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5986 ms
+[23Dec2024 22:30:07.930] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.171s)! For help, type "help"
+[23Dec2024 22:30:07.968] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Dec2024 22:30:07.972] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[23Dec2024 22:30:07.972] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[23Dec2024 22:30:07.973] [Server thread/INFO] [com.peeko32213.unusualprehistory.common.data.AnalyzerRecipeJsonManager/]: Registered 17 jsons with items!
+[23Dec2024 22:30:07.991] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[23Dec2024 22:30:07.999] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[23Dec2024 22:30:21.684] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Marte[/100.122.96.121:50519] logged in with entity id 167 at (3.9187123372250823, 148.0, 27.133593122190764)
+[23Dec2024 22:30:21.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte joined the game
+[23Dec2024 22:30:22.016] [Server thread/INFO] [Jade/]: Syncing config to Marte (d6a61bf0-6b95-377b-8f8d-4d58569ac1d6)
+[23Dec2024 22:30:22.238] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Marte (18)
+[23Dec2024 22:30:22.243] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Marte
+[23Dec2024 22:30:25.077] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player d6a61bf0-6b95-377b-8f8d-4d58569ac1d6
+[23Dec2024 22:30:26.047] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player d6a61bf0-6b95-377b-8f8d-4d58569ac1d6
+[23Dec2024 22:30:26.050] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Marte (d6a61bf0-6b95-377b-8f8d-4d58569ac1d6) successfully connected to voice chat
+[23Dec2024 22:31:15.041] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elyxdev[/100.113.222.78:63636] logged in with entity id 294 at (4.693586152271857, 148.0, 28.683263784652873)
+[23Dec2024 22:31:15.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev joined the game
+[23Dec2024 22:31:15.123] [Server thread/INFO] [Jade/]: Syncing config to elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346)
+[23Dec2024 22:31:16.645] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of elyxdev (18)
+[23Dec2024 22:31:16.645] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to elyxdev
+[23Dec2024 22:31:25.712] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cabd2470-5f39-3704-b0d2-16f4468f9346
+[23Dec2024 22:31:26.718] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cabd2470-5f39-3704-b0d2-16f4468f9346
+[23Dec2024 22:31:26.718] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player elyxdev (cabd2470-5f39-3704-b0d2-16f4468f9346) successfully connected to voice chat
+[23Dec2024 22:33:45.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte has made the advancement [Is this... blood?]
+[23Dec2024 22:33:51.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Monster Hunter]
+[23Dec2024 22:39:29.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Advanced Communication]
+[23Dec2024 22:39:33.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte has made the advancement [Advanced Communication]
+[23Dec2024 22:39:51.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elyxdev: Set own game mode to Survival Mode]
+[23Dec2024 22:40:04.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> canal 1
+[23Dec2024 22:40:08.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Ya
+[23Dec2024 22:40:19.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> sí
+[23Dec2024 22:40:21.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> sabes q vi
+[23Dec2024 22:40:35.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> para hablar hay que tenerlo en el slotbar
+[23Dec2024 22:40:40.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> y para escuchar en la segunda mano
+[23Dec2024 22:41:19.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> si
+[23Dec2024 22:42:56.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elyxdev: Set own game mode to Creative Mode]
+[23Dec2024 22:43:09.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte has made the advancement [Monster Hunter]
+[23Dec2024 22:43:20.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elyxdev: Set own game mode to Survival Mode]
+[23Dec2024 22:47:02.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [elyxdev: Gamerule keepInventory is now set to: true]
+[23Dec2024 22:47:08.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was slain by Ghost
+[23Dec2024 22:47:09.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte was slain by Ghost
+[23Dec2024 22:51:19.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> ahí sí dejaste de hablar
+[23Dec2024 22:51:20.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Me escuchas?
+[23Dec2024 22:51:23.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> no
+[23Dec2024 22:51:29.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Entonces es funcional
+[23Dec2024 22:51:33.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> szs
+[23Dec2024 22:51:36.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> No como irl
+[23Dec2024 22:52:09.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte fell from a high place
+[23Dec2024 22:56:04.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Who You Gonna Call?]
+[23Dec2024 22:56:23.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte has made the advancement [Who You Gonna Call?]
+[23Dec2024 22:56:32.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte has made the advancement [Isn't It Iron Pick]
+[23Dec2024 22:56:33.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte has made the advancement [Acquire Hardware]
+[23Dec2024 22:59:03.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Me escuchas?
+[23Dec2024 22:59:49.945] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/4575, l='ServerLevel[world]', x=314.50, y=126.51, z=-200.70] died, message: 'Unemployed froze to death'
+[23Dec2024 22:59:52.936] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/4546, l='ServerLevel[world]', x=312.50, y=126.00, z=-200.70] died, message: 'Unemployed froze to death'
+[23Dec2024 23:00:10.934] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/4548, l='ServerLevel[world]', x=313.50, y=126.00, z=-200.70] died, message: 'Cleric froze to death'
+[23Dec2024 23:02:13.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Marte moved wrongly!
+[23Dec2024 23:02:51.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Me escuchas?
+[23Dec2024 23:02:54.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte has made the advancement [Cobweb Entanglement]
+[23Dec2024 23:02:55.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> sí
+[23Dec2024 23:03:28.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> dónde estás
+[23Dec2024 23:03:33.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Por ahí
+[23Dec2024 23:04:55.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Bloodthirsty]
+[23Dec2024 23:05:25.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Bro los efectos de sonido son buenoss
+[23Dec2024 23:05:29.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> szs
+[23Dec2024 23:05:32.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Literal en una selva se escucha todo melo
+[23Dec2024 23:05:47.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> A
+[23Dec2024 23:05:50.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> q
+[23Dec2024 23:05:51.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Hay ice and fire?
+[23Dec2024 23:05:53.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> szs
+[23Dec2024 23:05:55.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Fokiu
+[23Dec2024 23:05:58.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Ya me di cuenta
+[23Dec2024 23:05:59.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Cobweb Entanglement]
+[23Dec2024 23:06:12.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Voy a matar un dragón con una espada de madera
+[23Dec2024 23:06:16.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Y sin armadua
+[23Dec2024 23:06:21.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> diavlo
+[23Dec2024 23:06:27.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Stone Age]
+[23Dec2024 23:06:40.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Getting an Upgrade]
+[23Dec2024 23:07:00.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> wtf
+[23Dec2024 23:07:06.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> q
+[23Dec2024 23:07:11.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> El dragón esta atacando a otras entidades
+[23Dec2024 23:07:16.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Y estoy en su nido
+[23Dec2024 23:08:32.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte has made the advancement [Bloodthirsty]
+[23Dec2024 23:08:36.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> a
+[23Dec2024 23:08:43.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte was turned to ice by Ice Dragon
+[23Dec2024 23:08:54.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Bro ahora mi truco para matar dragones no sirve
+[23Dec2024 23:09:02.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> por gay
+[23Dec2024 23:09:04.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Ese estaba dizque nadando
+[23Dec2024 23:09:47.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Donde andas
+[23Dec2024 23:09:52.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> ni idea
+[23Dec2024 23:10:33.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Is this... blood?]
+[23Dec2024 23:10:55.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev was slain by Zombie
+[23Dec2024 23:12:29.192] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/13171, l='ServerLevel[world]', x=261.94, y=88.62, z=-172.17] died, message: 'Fisherman was slain by Ghost'
+[23Dec2024 23:14:31.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Sweet Dreams]
+[23Dec2024 23:14:47.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> No puedo
+[23Dec2024 23:14:49.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> pene
+[23Dec2024 23:16:02.090] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/13174, l='ServerLevel[world]', x=257.79, y=80.10, z=-173.60] died, message: 'Unemployed was slain by Ghost'
+[23Dec2024 23:17:52.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Ala
+[23Dec2024 23:17:55.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Hay sea beast
+[23Dec2024 23:17:55.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> q
+[23Dec2024 23:17:58.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> omg
+[23Dec2024 23:18:44.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> También las que mas odio
+[23Dec2024 23:18:48.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Fokin mermaids
+[23Dec2024 23:20:44.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> bro
+[23Dec2024 23:20:48.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> dime
+[23Dec2024 23:20:48.734] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/13186, l='ServerLevel[world]', x=319.70, y=125.39, z=-200.50] died, message: 'Librarian froze to death'
+[23Dec2024 23:20:52.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Creo que encontre severa estructura
+[23Dec2024 23:20:55.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> q es
+[23Dec2024 23:20:56.787] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/13206, l='ServerLevel[world]', x=305.50, y=131.00, z=-206.30] died, message: 'Cleric froze to death'
+[23Dec2024 23:21:01.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> deja me acerco
+[23Dec2024 23:21:41.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Ah no
+[23Dec2024 23:21:45.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Es una aldea común
+[23Dec2024 23:21:53.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> joer
+[23Dec2024 23:21:59.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Pero mk cambian mucho dependiendo de el terreno
+[23Dec2024 23:23:01.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> También esta medusa
+[23Dec2024 23:24:08.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Rotten to the Core]
+[23Dec2024 23:24:33.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Book of Monsters]
+[23Dec2024 23:24:43.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Would you Like to Know More?]
+[23Dec2024 23:26:08.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> What
+[23Dec2024 23:26:14.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> q
+[23Dec2024 23:26:23.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Hay tres dragones dando vueltas entre ellos
+[23Dec2024 23:26:43.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> mooda
+[23Dec2024 23:26:51.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Hay nuevas especies?
+[23Dec2024 23:26:55.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> hay una verde
+[23Dec2024 23:26:56.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elyxdev> creo
+[23Dec2024 23:27:12.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Error
+[23Dec2024 23:27:21.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Son muchos
+[23Dec2024 23:27:50.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Amphitere
+[23Dec2024 23:28:04.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Eso no es dragon
+[23Dec2024 23:28:05.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> que es eso
+[23Dec2024 23:29:42.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev has made the advancement [Acquire Hardware]
+[23Dec2024 23:30:05.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Bro los sea serpent son muy largos
+[23Dec2024 23:30:11.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte was slain by Sea Serpent
+[23Dec2024 23:30:26.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Bueno, voy a ir a hacer comida
+[23Dec2024 23:30:31.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> mas tarde juego
+[23Dec2024 23:30:33.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Marte> Adios
+[23Dec2024 23:30:35.787] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Marte lost connection: Disconnected
+[23Dec2024 23:30:35.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Marte left the game
+[23Dec2024 23:30:35.791] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Marte
+[23Dec2024 23:31:36.084] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elyxdev lost connection: Disconnected
+[23Dec2024 23:31:36.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elyxdev left the game
+[23Dec2024 23:31:36.086] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client elyxdev
+[23Dec2024 23:31:59.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[23Dec2024 23:31:59.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Dec2024 23:31:59.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Dec2024 23:31:59.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Dec2024 23:31:59.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23Dec2024 23:32:00.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23Dec2024 23:32:00.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23Dec2024 23:32:00.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23Dec2024 23:32:00.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Dec2024 23:32:00.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Dec2024 23:32:00.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
