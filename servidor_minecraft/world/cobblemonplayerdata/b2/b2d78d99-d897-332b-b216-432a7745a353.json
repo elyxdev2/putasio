@@ -1,0 +1,49 @@
+{
+  "uuid": "b2d78d99-d897-332b-b216-432a7745a353",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "9ec373ad-38dc-4073-ab79-4a511a2ed5a7",
+  "keyItems": [],
+  "battleTheme": "cobblemon:battle.pvp.default",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 1,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 2,
+    "totalBattleVictoryCount": 32,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 32,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 0,
+    "totalTypeCaptureCounts": {
+      "electric": 1
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:zigzagoon": 3,
+      "cobblemon:sentret": 2,
+      "cobblemon:psyduck": 1,
+      "cobblemon:geodude": 1,
+      "cobblemon:bunnelby": 2,
+      "cobblemon:zubat": 1,
+      "cobblemon:phantump": 1,
+      "cobblemon:metapod": 1,
+      "cobblemon:hoothoot": 1,
+      "cobblemon:fletchling": 1,
+      "cobblemon:beedrill": 1,
+      "cobblemon:exeggcute": 1,
+      "cobblemon:ninjask": 1,
+      "cobblemon:fomantis": 1,
+      "cobblemon:doduo": 2,
+      "cobblemon:spearow": 3,
+      "cobblemon:furret": 1,
+      "cobblemon:farfetchd": 1,
+      "cobblemon:gimmighoul": 3,
+      "cobblemon:bellsprout": 1,
+      "cobblemon:camerupt": 1,
+      "cobblemon:growlithe": 1
+    },
+    "aspectsCollected": {}
+  }
+}
