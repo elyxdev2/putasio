@@ -37,18 +37,26 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:mushroom_fields": "2025-01-23 03:06:44 +0000",
+      "minecraft:deep_ocean": "2025-01-23 03:06:33 +0000",
+      "minecraft:sunflower_plains": "2025-01-23 03:04:58 +0000",
       "minecraft:bamboo_jungle": "2025-01-22 20:13:41 +0000",
       "minecraft:savanna_plateau": "2025-01-23 02:27:05 +0000",
       "minecraft:beach": "2025-01-23 02:48:43 +0000",
       "minecraft:stony_peaks": "2025-01-23 02:30:03 +0000",
+      "minecraft:mangrove_swamp": "2025-01-23 03:04:08 +0000",
       "minecraft:sparse_jungle": "2025-01-22 20:30:10 +0000",
       "minecraft:lukewarm_ocean": "2025-01-22 21:15:07 +0000",
       "minecraft:river": "2025-01-22 20:46:54 +0000",
       "minecraft:stony_shore": "2025-01-22 20:49:35 +0000",
+      "minecraft:swamp": "2025-01-23 03:04:42 +0000",
       "minecraft:forest": "2025-01-22 20:10:23 +0000",
       "minecraft:lush_caves": "2025-01-22 20:17:50 +0000",
+      "minecraft:deep_cold_ocean": "2025-01-23 03:06:42 +0000",
       "minecraft:jungle": "2025-01-22 20:16:16 +0000",
+      "minecraft:ocean": "2025-01-23 03:06:25 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-23 02:48:28 +0000",
+      "minecraft:flower_forest": "2025-01-23 03:05:14 +0000",
       "minecraft:savanna": "2025-01-23 02:26:52 +0000",
       "minecraft:plains": "2025-01-22 21:40:34 +0000"
     },
@@ -464,7 +472,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "apple": "2025-01-23 03:11:41 +0000",
       "bread": "2025-01-23 02:51:22 +0000",
+      "rotten_flesh": "2025-01-23 03:11:35 +0000",
       "melon_slice": "2025-01-22 20:16:47 +0000"
     },
     "done": false
@@ -1416,12 +1426,6 @@
     },
     "done": false
   },
-  "dungeons_arise:find_bathhouse": {
-    "criteria": {
-      "location0": "2025-01-23 02:49:01 +0000"
-    },
-    "done": true
-  },
   "cobblemon:recipes/balls/park_ball": {
     "criteria": {
       "has_red_apricorn": "2025-01-23 02:46:45 +0000"
@@ -1445,6 +1449,72 @@
       "has_red_apricorn": "2025-01-23 02:46:45 +0000"
     },
     "done": false
+  },
+  "dungeons_arise:find_bathhouse": {
+    "criteria": {
+      "location0": "2025-01-23 02:49:01 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_siren": {
+    "criteria": {
+      "killed_fire_dragon": "2025-01-23 03:00:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-01-23 03:11:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-01-23 03:11:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-01-23 03:11:50 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/horse": {
+    "criteria": {
+      "has_leather": "2025-01-23 03:11:50 +0000"
+    },
+    "done": true
+  },
+  "hangglider:recipes/tools/glider_wing": {
+    "criteria": {
+      "has_leather": "2025-01-23 03:11:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-01-23 03:11:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-01-23 03:11:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-01-23 03:11:50 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/blindfold": {
+    "criteria": {
+      "has_item": "2025-01-23 03:11:50 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

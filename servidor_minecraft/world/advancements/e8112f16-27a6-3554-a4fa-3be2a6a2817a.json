@@ -37,6 +37,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-01-23 03:05:39 +0000",
       "minecraft:old_growth_pine_taiga": "2025-01-22 22:36:41 +0000",
       "minecraft:taiga": "2025-01-22 22:36:23 +0000",
       "minecraft:deep_ocean": "2025-01-22 22:56:45 +0000",
@@ -60,13 +61,16 @@
       "minecraft:grove": "2025-01-22 22:37:43 +0000",
       "minecraft:swamp": "2025-01-22 22:42:17 +0000",
       "minecraft:jagged_peaks": "2025-01-22 22:38:05 +0000",
+      "minecraft:cold_ocean": "2025-01-23 03:02:11 +0000",
       "minecraft:forest": "2025-01-22 20:23:40 +0000",
       "minecraft:lush_caves": "2025-01-22 20:38:13 +0000",
+      "minecraft:deep_cold_ocean": "2025-01-23 03:02:26 +0000",
       "minecraft:desert": "2025-01-23 00:59:56 +0000",
       "minecraft:windswept_forest": "2025-01-23 01:59:51 +0000",
       "minecraft:jungle": "2025-01-22 20:26:03 +0000",
       "minecraft:ocean": "2025-01-22 21:31:57 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-01-22 22:37:16 +0000",
+      "minecraft:windswept_savanna": "2025-01-23 03:12:22 +0000",
       "minecraft:warm_ocean": "2025-01-23 00:58:34 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-23 00:58:30 +0000",
       "minecraft:frozen_peaks": "2025-01-22 22:54:52 +0000",
@@ -4595,6 +4599,84 @@
   "cobblemon:first_catch": {
     "criteria": {
       "catch": "2025-01-23 02:29:39 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/relic_coin_pouch": {
+    "criteria": {
+      "has_coin": "2025-01-23 03:01:29 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_ice_brick": {
+    "criteria": {
+      "has_item": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_fire_brick": {
+    "criteria": {
+      "has_item": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_lightning_brick": {
+    "criteria": {
+      "has_item": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-23 02:59:29 +0000"
     },
     "done": true
   },
