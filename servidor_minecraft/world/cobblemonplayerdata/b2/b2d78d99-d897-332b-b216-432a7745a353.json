@@ -11,9 +11,9 @@
     "totalCaptureCount": 1,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 2,
-    "totalBattleVictoryCount": 73,
+    "totalBattleVictoryCount": 74,
     "totalPvPBattleVictoryCount": 12,
-    "totalPvWBattleVictoryCount": 61,
+    "totalPvWBattleVictoryCount": 62,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -53,7 +53,8 @@
       "cobblemon:swoobat": 1,
       "cobblemon:shiinotic": 1,
       "cobblemon:whirlipede": 1,
-      "cobblemon:treecko": 1
+      "cobblemon:treecko": 1,
+      "cobblemon:snorunt": 1
     },
     "aspectsCollected": {}
   }

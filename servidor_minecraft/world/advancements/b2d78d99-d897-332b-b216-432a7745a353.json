@@ -39,6 +39,7 @@
     "criteria": {
       "minecraft:bamboo_jungle": "2025-01-22 20:13:41 +0000",
       "minecraft:savanna_plateau": "2025-01-23 02:27:05 +0000",
+      "minecraft:beach": "2025-01-23 02:48:43 +0000",
       "minecraft:stony_peaks": "2025-01-23 02:30:03 +0000",
       "minecraft:sparse_jungle": "2025-01-22 20:30:10 +0000",
       "minecraft:lukewarm_ocean": "2025-01-22 21:15:07 +0000",
@@ -47,6 +48,7 @@
       "minecraft:forest": "2025-01-22 20:10:23 +0000",
       "minecraft:lush_caves": "2025-01-22 20:17:50 +0000",
       "minecraft:jungle": "2025-01-22 20:16:16 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-01-23 02:48:28 +0000",
       "minecraft:savanna": "2025-01-23 02:26:52 +0000",
       "minecraft:plains": "2025-01-22 21:40:34 +0000"
     },
@@ -462,6 +464,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "bread": "2025-01-23 02:51:22 +0000",
       "melon_slice": "2025-01-22 20:16:47 +0000"
     },
     "done": false
@@ -962,6 +965,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-01-22 20:22:56 +0000",
       "minecraft:spider": "2025-01-22 20:25:54 +0000",
+      "minecraft:husk": "2025-01-23 02:49:48 +0000",
       "minecraft:zombie": "2025-01-22 20:22:04 +0000",
       "minecraft:drowned": "2025-01-22 20:47:53 +0000",
       "minecraft:zombie_villager": "2025-01-22 20:27:31 +0000"
@@ -1304,15 +1308,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+  "majruszsdifficulty:game_stage_expert": {
     "criteria": {
-      "has_golden_chestplate": "2025-01-23 02:24:45 +0000"
+      "is_triggered": "2025-01-23 02:22:11 +0000"
     },
     "done": true
   },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_boots": "2025-01-23 02:23:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_chestplate": "2025-01-23 02:24:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_chestplate": "2025-01-23 02:24:45 +0000"
     },
     "done": true
   },
@@ -1328,23 +1344,107 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_chestplate": "2025-01-23 02:24:45 +0000"
-    },
-    "done": true
-  },
-  "majruszsdifficulty:game_stage_expert": {
-    "criteria": {
-      "is_triggered": "2025-01-23 02:22:11 +0000"
-    },
-    "done": true
-  },
   "cobblemon:first_catch": {
     "criteria": {
       "catch": "2025-01-23 02:28:14 +0000"
     },
     "done": true
+  },
+  "cobblemon:recipes/balls/dream_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/balls/level_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:harvest_apricorn": {
+    "criteria": {
+      "check_inv": "2025-01-23 02:46:45 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/balls/lure_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/balls/poke_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/balls/repeat_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:harvest_apricorn_seed": {
+    "criteria": {
+      "check_inv": "2025-01-23 02:46:45 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/agriculture/red_apricorn_smelt_to_dye": {
+    "criteria": {
+      "has_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/balls/fast_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/balls/friend_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/balls/great_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
+  },
+  "dungeons_arise:find_bathhouse": {
+    "criteria": {
+      "location0": "2025-01-23 02:49:01 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/balls/park_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/balls/luxury_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/balls/sport_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/balls/timer_ball": {
+    "criteria": {
+      "has_red_apricorn": "2025-01-23 02:46:45 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
