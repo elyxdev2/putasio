@@ -11,9 +11,9 @@
     "totalCaptureCount": 1,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 2,
-    "totalBattleVictoryCount": 33,
+    "totalBattleVictoryCount": 35,
     "totalPvPBattleVictoryCount": 14,
-    "totalPvWBattleVictoryCount": 19,
+    "totalPvWBattleVictoryCount": 21,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -37,8 +37,8 @@
       "cobblemon:woobat": 1,
       "cobblemon:electrode": 1,
       "cobblemon:chatot": 1,
-      "cobblemon:gastly": 1,
-      "cobblemon:gimmighoul": 1
+      "cobblemon:gastly": 2,
+      "cobblemon:gimmighoul": 2
     },
     "aspectsCollected": {}
   }

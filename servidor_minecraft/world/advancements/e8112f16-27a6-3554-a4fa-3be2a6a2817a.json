@@ -73,6 +73,7 @@
       "minecraft:windswept_savanna": "2025-01-23 03:12:22 +0000",
       "minecraft:warm_ocean": "2025-01-23 00:58:34 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-01-23 00:58:30 +0000",
+      "minecraft:flower_forest": "2025-01-23 03:29:31 +0000",
       "minecraft:frozen_peaks": "2025-01-22 22:54:52 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-22 22:39:37 +0000",
       "minecraft:meadow": "2025-01-22 22:37:38 +0000",
@@ -4602,12 +4603,6 @@
     },
     "done": true
   },
-  "cobblemon:recipes/misc/relic_coin_pouch": {
-    "criteria": {
-      "has_coin": "2025-01-23 03:01:29 +0000"
-    },
-    "done": true
-  },
   "iceandfire:recipes/building_blocks/dragonforge_ice_brick": {
     "criteria": {
       "has_item": "2025-01-23 02:59:29 +0000"
@@ -4677,6 +4672,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-01-23 02:59:29 +0000"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/relic_coin_pouch": {
+    "criteria": {
+      "has_coin": "2025-01-23 03:01:29 +0000"
     },
     "done": true
   },
